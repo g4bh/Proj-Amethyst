@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\Diego\Downloads\Projeto Rede Social\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2774079754.index
+1329928197.index
