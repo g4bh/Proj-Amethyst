@@ -36,5 +36,13 @@ public class Usuario {
 		System.out.println("Amigo adicionado");
 	}
 	
-}
+	
+	public void removerAmigo(Usuario amigo) {
+		
+		if (amigos.contains(amigo)) {
+            amigos.remove(amigo);
+            System.out.println("amigos excluido");
+        }
+		
+}}
 
