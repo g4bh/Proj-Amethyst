@@ -1,4 +1,5 @@
 package com.example.Rede.Social;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.List;
@@ -24,5 +25,16 @@ public class Usuario {
 		this.grupos = grupos;
 		this.seguidores = seguidores;
 	}
+	
+	public void adicionarAmigo(Usuario amigo) {
+		if (this == amigo || amigos.contains(amigo)) {
+            System.out.println("Essa pessoa ja é sua amiga");
+            return;
+        }
+		
+		amigos.add(amigo);
+		System.out.println("Amigo adicionado");
+	}
+	
 }
 
