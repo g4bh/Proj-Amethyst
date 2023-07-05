@@ -14,5 +14,15 @@ public class Usuario {
 	private List<Usuario> amigos;
 	private List<Grupo> grupos;
 	private List<Usuario> seguidores;
+	
+	public Usuario (int id, String nome, String foto, String localizacao, List<String> interesses, List<Usuario> amigos, List<Usuario> seguidores ) {
+		this.id = id;
+		this.foto = foto;
+		this.localizacao = localizacao;
+		this.interesses = interesses;
+		this.amigos = amigos;
+		this.grupos = grupos;
+		this.seguidores = seguidores;
+	}
 }
 

@@ -11,4 +11,13 @@ public class Evento {
 	private String localizacao;
 	
 	
+	public Evento(int id, String nome, String descricao, Data data, String localizacao) {
+		this.id = id;
+		this.nome = nome;
+		this.descricao = descricao;
+		this.data = data;
+		this.localizacao = localizacao;
+		
+	}
+	
 }

@@ -9,5 +9,13 @@ public class Postagem {
 	private Usuario autor;
 	private Date data;
 	private List<Comentario> comentarios;
+	
+	public Postagem (int id, String texto, Usuario autor, Date data, List<Comentario> comentarios) {
+		this.id = id;
+		this.texto = texto;
+		this.autor = autor;
+		this.data = data;
+		this.comentarios = comentarios;
+	}
 
 }
