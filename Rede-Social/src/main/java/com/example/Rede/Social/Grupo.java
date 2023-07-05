@@ -1,6 +1,7 @@
 package com.example.Rede.Social;
 
 import java.util.List;
+import java.util.ArrayList;
 
 public class Grupo {
 	private int id;
@@ -12,6 +13,25 @@ public class Grupo {
         this.id = id;
         this.nome = nome;
         this.descricao = descricao;
-        this.membros = membros;
+        this.membros = new ArrayList<>();
     }
+	
+	public void adicionarMembro(Usuario usuario) {
+		if(membros.contains(usuario)) {
+			
+		}
+		else {
+			membros.add(usuario);
+			System.out.println("usuario adicionado");
+			}
+	}
+	
+	public void removerMembro(Usuario usuario) {
+		if(membros.contains(usuario)) {
+			membros.remove(usuario);
+			System.out.println("Usuario removido");
+		}
+	}
+	
+	
 }
