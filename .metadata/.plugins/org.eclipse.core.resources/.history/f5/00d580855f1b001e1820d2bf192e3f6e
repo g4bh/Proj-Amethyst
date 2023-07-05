@@ -43,19 +43,7 @@ public class Usuario {
         }
     }
 	
-    public void seguirPagina (Pagina pagina) {
-    	if (paginas.contains(pagina)) {
-        } else {
-            paginas.add(pagina);
-            System.out.println("Você começou a seguir a página");
-        }
-	}
+	
 
-    public void deixarDeSeguirPagina (Pagina pagina) {
-    	if (paginas.contains(pagina)) {
-    		paginas.remove(pagina);
-    		System.out.println("Voce deixou de seguir a pagina");
-    	}
-    }
 }
 

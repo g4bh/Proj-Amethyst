@@ -618,3 +618,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-05 15:02:42.727
 !MESSAGE Classpath changed for project: Rede-Social
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-05 15:12:37.330
+!MESSAGE Classpath changed for project: Rede-Social
